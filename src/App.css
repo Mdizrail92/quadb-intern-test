@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+header {
+  height: 75px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+header img {
+  width: 70px;
+}
+.company-name {
+  margin: 0 20px;
+}
+.company-name p {
+  margin-bottom: 0px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border: none;
+  background-color: aliceblue;
+}
+a {
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+}
+.bold-fonts {
+  font-weight: bold;
+}
+
+/* footer */
+.social-icons i {
+  color: #bbb;
+  margin: 0px 0px 0px 5px;
+
+  font-size: 20px;
+}
+
+footer {
+  height: 80px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+ul {
+  margin-bottom: 0rem;
+}
+ul li {
+  display: inline;
+  margin: 0 5px;
+}
+footer hr {
+  color: white;
+}
+footer ul {
+  margin-right: 28px;
+}
